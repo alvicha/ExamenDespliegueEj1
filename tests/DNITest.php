@@ -5,7 +5,7 @@ class DniTest extends TestCase
 {
     public function testCalcularLetraDNI()
     {
-        $dni = new DNI("12345678Z");
-        $this->assertEquals("70941309V", $dni->getDNIConLetra());
+        $dni = new DNI("12345678");
+        $this->assertEquals("12345678Z", $dni->getDNIConLetra());
     }
 }

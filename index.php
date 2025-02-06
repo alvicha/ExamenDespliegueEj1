@@ -49,7 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </style>
 </head>
 <body>
-    <h1>Calcular letra del DNI</h1>
+    <h1>Calcular letras del DNI</h1>
     <form method="POST" action="">
         <label for="dni">Introduce tu DNI (sin letra):</label><br>
         <input type="text" id="dni" name="dni" maxlength="8" required><br>
